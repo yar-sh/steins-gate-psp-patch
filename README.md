@@ -1,5 +1,5 @@
 ## Steins;Gate PSP English Patch
-![](https://haselloyance.github.io/0_SGPSPE/logo.jpg)
+![](https://yar.sh/SGPSPE/logo.jpg)
 
 *I am not going to lie, this worldline is decent enough, but this patch is going to make it better. El Psy Congroo.*
 
@@ -43,6 +43,9 @@ Here are the MD5 hashes I ended up with:
 If you don't have the same hashes before and/or after, then it most likely won't work for you.
 
 #### 🔨 Patching options
+> ⚠️ Some antivirus engines flag the `.exe`. This is a [false positive](https://github.com/yar-sh/steins-gate-psp-patch/issues/17) caused by VPatch's UPX-packed stub with ~235MB of patch data appended to it, and not by anything the patcher does.
+> If you would rather not run it, the [v1.0.1 release](https://github.com/yar-sh/steins-gate-psp-patch/releases/tag/v1.0.1) also ships the plain `.pat` file, which you can apply with [VPatch](https://www.tibed.net/vpatch/) yourself.
+
 **.exe** created with [VPatch](https://www.tibed.net/vpatch/).
 1. Run Windows command prompt.
 2. Navigate using `cd` to the folder with the `Steins_Gate_PSP_English_Patch_vXXX.exe` inside it.
@@ -50,7 +53,7 @@ If you don't have the same hashes before and/or after, then it most likely won't
 4. The program will immediately throw you back into the command prompt. This is normal, it does all the work in the background. You can monitor its progress via Task Manager. Once it is done patching, the process will automatically terminate, leaving you with the ~1.2GB `<patched_iso>` file.
 
 #### ❌ Bugs/Typos
-There are plenty of each. This is exactly why there will be future patches with small bugfixes. You can contact me by using the means explained in the "[Contact](https://haselloyance.github.io/#contact)" section on my website. Or, specifically for this patch, the other way is to make a [new issue](https://github.com/HaselLoyance/steins-gate-psp-patch/issues).
+There are plenty of each. This is exactly why there will be future patches with small bugfixes. If you run into one, please make a [new issue](https://github.com/yar-sh/steins-gate-psp-patch/issues).
 
 I kindly ask you to provide the conditions in which unexpected behavior occurs. Screenshots and references to story text are very welcome. Save data would be even better.
 
@@ -68,17 +71,17 @@ It's for the best if you report even the smallest things. Typos/text overflow/bu
 - ilubandroid, provided sick ICON0 and PIC1. They literally look better than the ones in the original game. Their [Reddit](https://www.reddit.com/user/ilubandroid).
 
 #### 🖼️ Screenshots
-![](https://haselloyance.github.io/0_SGPSPE/pic1.jpg)
-![](https://haselloyance.github.io/0_SGPSPE/pic2.jpg)
-![](https://haselloyance.github.io/0_SGPSPE/pic3.jpg)
-![](https://haselloyance.github.io/0_SGPSPE/pic4.jpg)
-![](https://haselloyance.github.io/0_SGPSPE/pic5.jpg)
-![](https://haselloyance.github.io/0_SGPSPE/pic6.jpg)
-![](https://haselloyance.github.io/0_SGPSPE/pic7.jpg)
-![](https://haselloyance.github.io/0_SGPSPE/pic8.jpg)
+![](https://yar.sh/SGPSPE/pic1.jpg)
+![](https://yar.sh/SGPSPE/pic2.jpg)
+![](https://yar.sh/SGPSPE/pic3.jpg)
+![](https://yar.sh/SGPSPE/pic4.jpg)
+![](https://yar.sh/SGPSPE/pic5.jpg)
+![](https://yar.sh/SGPSPE/pic6.jpg)
+![](https://yar.sh/SGPSPE/pic7.jpg)
+![](https://yar.sh/SGPSPE/pic8.jpg)
 
 #### ⏬ Downloads
-Check [releases](https://github.com/HaselLoyance/steins-gate-psp-patch/releases).
+Check [releases](https://github.com/yar-sh/steins-gate-psp-patch/releases).
 
 #### ☕ Maybe sponsor my coffee addiction?
 If you find my work interesting, then please feel free to sponsor my [coffee](https://buymeacoff.ee/rwly8PutT) and [ko-fi](https://www.ko-fi.com/haselloyance) addictions that are currently covered entirely by my ever-growing student loans.
